@@ -1,0 +1,64 @@
+body {
+  background: black;
+}
+.headerCO {
+  margin-top: 1rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: skyblue;
+}
+.plusButton {
+  color: black;
+  font-size: 2rem;
+  float: right;
+  /* padding: 0.8rem 2rem; */
+  border: none;
+  background: skyblue;
+  color: white;
+}
+.plusButton:hover {
+  background: none;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  margin-top: 1rem;
+  padding: 0.8rem 2rem;
+}
+.Heading {
+  color: white;
+  margin-top: 1rem;
+  font-size: larger;
+}
+
+.inputTop {
+  margin-top: 1rem;
+  padding: 0.8rem 2rem;
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 8px;
+}
+
+.cardBody {
+  margin: 1rem;
+}
+
+.cardview {
+  gap: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.buttonicon {
+  color: black;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
